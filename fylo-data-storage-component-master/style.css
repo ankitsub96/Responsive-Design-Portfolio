@@ -1,0 +1,270 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: hsl(229, 57%, 11%); 
+	position: relative;
+}
+
+.container{
+	position: relative;	
+}
+
+@media (max-width: 375px){
+	body{
+		background-image: url("./images/bg-mobile.png");
+	}
+
+	.logo{
+		margin: 15vh auto auto;
+		width: min(300px, 80vw);
+		border-radius: 1em;
+		border-top-right-radius: 25vw;
+		background-color: hsl(228, 56%, 26%);
+		padding: 1rem;
+		padding-top: 2rem;
+	}
+
+	.logo h1{
+		color: white;
+		margin: auto auto 20px 10px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 2.5rem;
+	}
+
+	.icons img{
+		padding: 3vw;
+		width: min(70px, 13vw);
+		background-color: hsl(229, 57%, 11%); 
+		height: min(60px, 12vw);
+		margin: 10px 0 10px 10px;
+		border-radius: 4vw;
+	}
+
+	.file-stats{
+		background-color: hsl(228, 56%, 26%);
+		margin: 7vh auto auto;
+		border-radius: 0.7em;
+		padding: 0.7rem;
+		color: white;
+		font-family: 'Raleway', sans-serif;
+		border-radius: 12px;
+		font-weight: 400;
+		height: 7rem;
+		position: relative;
+	}
+
+	.header span{
+		font-weight: 900;
+	}
+
+	.used{
+		position: absolute;
+		width: 50%;
+		height: 50%;
+		border-radius: 10px;
+		top: 6rem;
+		margin-left: 25%;
+		background-color: white;
+		color: black;
+		padding: 5%;
+		padding-top: 3.5%;
+		font-size: 150%;
+		font-weight: 700;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.used span+span{
+		color: #808080;
+		font-size: 75%;
+		font-weight: 300;
+	}
+
+	.progress-bar{
+		display: inline-block;
+		width: 90%;
+		height: 0.7rem;
+		background-color: hsl(229, 57%, 11%);
+		padding: 0px;
+		border-radius: 0.7rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.bar{
+		width: calc( 100% * 0.815 );
+		height: 0.7rem;
+		margin: 0px;
+		padding: 0px;
+		border-radius: 0.7rem; 
+		background-image: linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+
+	}
+
+	.circle{
+		width: 0.7rem;
+		margin: 0px;
+		margin-left: auto;
+		border-radius: 0.7rem;
+		background-color: white;
+		z-index: 22;
+		height: 0.7rem;
+	}
+
+	.scale{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.attribution{
+		position: absolute;
+		bottom: -25%;
+	}
+}
+
+@media(min-width: 376px){
+
+	.bg-image{
+		position: absolute;
+		bottom: -57vh;
+		height: 50vh;
+		width: 100vw;
+		display: inline-block;
+		background-image: url('./images/bg-desktops.png');
+  		background-repeat: no-repeat;
+		z-index: -1;
+
+	}
+
+	.flex-row{
+		position: relative;
+		top: 23vh;
+		display: flex;
+		margin: auto;
+		max-width: 90%;
+		justify-content: space-around;
+		align-items: flex-start;
+		height: 100%;\
+		z-index: 2;
+	}
+
+	.logo{
+		margin: 15vh auto auto;
+		width: min(300px, 25vw);
+		border-radius: 0.5rem;
+		border-top-right-radius: 12vw;
+		background-color: hsl(228, 56%, 26%);
+		padding: 1rem 2rem 0.5rem 1rem;
+/*		height: min(300px, 15vw);*/
+	}
+
+	.logo h1{
+		color: white;
+		margin: 2vw auto 2vw 2vw;
+		font-family: 'Raleway', sans-serif;
+		font-size: 3vw;
+	}
+
+	.icons{
+		margin-left: 2vw;
+	}
+
+	.icons img{
+		padding: 0.9vw;
+		width: min(70px, 4vw);
+		background-color: hsl(229, 57%, 11%); 
+		height: min(60px, 3.5vw);
+		margin: 0.35vw 0 0.35vw;
+		border-radius: 0.5vw;
+	}
+
+	.file-stats{
+		width: 60vw;
+		background-color: hsl(228, 56%, 26%);
+		margin: 15vh auto auto;
+		border-radius: 2vw;
+		padding: 2vw 2.5vw;
+		color: white;
+		font-family: 'Raleway', sans-serif;
+		border-radius: 1.5vw;
+		font-weight: 400;
+		height: max(13.5vw, 7rem);
+		position: relative;
+	}
+
+	.header{
+		width: 65%;
+		display: inline-block;
+	}
+
+	.header span{
+		font-weight: 900;
+	}
+
+	.used{
+		width: 25%;
+		float: right;
+		height: 4vw;
+		border-radius: 1vw;
+		background-color: white;
+		color: black;
+		padding: 2% 1.5%;
+		font-size: 1.5vw;
+		font-weight: 700;
+		display: block;
+	}
+
+	.used span+span{
+		color: #808080;
+		font-size: 75%;
+		font-weight: 300;
+	}
+
+	.progress-bar{
+		display: inline-block;
+		width: 90%;
+		height: 0.7rem;
+		background-color: hsl(229, 57%, 11%);
+		padding: 0px;
+		border-radius: 0.7rem;
+		margin-top: 3.5vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.bar{
+		width: calc( 100% * 0.815 );
+		height: 0.7rem;
+		margin: 0px;
+		padding: 0px;
+		border-radius: 0.7rem; 
+		background-image: linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+
+	}
+
+	.circle{
+		width: 0.7rem;
+		margin: 0px;
+		margin-left: auto;
+		border-radius: 0.7rem;
+		background-color: white;
+		z-index: 22;
+		height: 0.7rem;
+	}
+
+	.scale{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.attribution{
+		color: white;
+		width: 30%;
+		position: absolute;
+		bottom: -55vh;
+		left: 35%;
+	}
+}
