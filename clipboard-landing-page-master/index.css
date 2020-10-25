@@ -57,7 +57,10 @@ p{
 .footer{
 	background-color: #e2e7e9;
 }
-.footer img:hover, .footer a:hover{
+.footer img:hover{
+	filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+}
+.footer a:hover{
 	color: #26BAA4;
 }
 .footer-link{
