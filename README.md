@@ -1,5 +1,13 @@
 # Responsive-Design-Portfolio
 
+Some Responsive website results made using HTML and CSS in response to challenges on https://www.frontendmentor.io/.
+
+https://ankitsub96.github.io/Responsive-Design-Portfolio/clipboard-landing-page-master/
+
+https://ankitsub96.github.io/Responsive-Design-Portfolio/fylo-data-storage-component-master/
+
+
+Some Full-Stack Web apps created using Node.js
 
 https://fast-harbor-45046.herokuapp.com/  - Email Capture app made with Express JS and utilising the Mailhimp API to take and create a mailing list from users- Full Name and Email
 
@@ -11,6 +19,4 @@ https://rocky-sands-42615.herokuapp.com/   -Secrets app- Authenticate Yourself w
 
 https://serene-bayou-25678.herokuapp.com/   -Blog app- Create and access text-only blogs. App made with Express JS and data persistence using MongoDB
 
-https://ankitsub96.github.io/Responsive-Design-Portfolio/clipboard-landing-page-master/
 
-https://ankitsub96.github.io/Responsive-Design-Portfolio/fylo-data-storage-component-master/
