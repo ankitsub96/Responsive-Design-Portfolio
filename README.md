@@ -1,6 +1,6 @@
 # Responsive-Design-Portfolio
 
-Some Responsive website results made using HTML and CSS in response to challenges on https://www.frontendmentor.io/.
+Some Responsive websites made using HTML and CSS in response to challenges on https://www.frontendmentor.io/. The list will hopefully grow!! :)
 
 https://ankitsub96.github.io/Responsive-Design-Portfolio/clipboard-landing-page-master/
 
