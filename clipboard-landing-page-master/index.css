@@ -269,6 +269,11 @@ p{
 	.company div{
 		margin: 2vw auto;
 		max-width: 18vw;
+		display: flex;
+	}
+	.company div img{
+		margin: auto;
+		justify-content: center;	
 	}
 	.column5{
 		width: 45vw;
