@@ -261,6 +261,10 @@
    		width: 8vw;
    	}
 
+   	.nav__list--secondary .nav__item{
+   		min-width: 12vw;
+   	}
+
    	.nav__item a{
    		font-weight: 500;
    		font-size: inherit;
