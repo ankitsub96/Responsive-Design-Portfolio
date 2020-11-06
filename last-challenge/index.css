@@ -176,7 +176,6 @@ header a{
 	margin-bottom: 2%;
 }
 .column-3 > h4{
-	/*min-height: 144px;*/
 	vertical-align: bottom;
 	margin: auto;
 	padding-top: auto;
@@ -187,13 +186,6 @@ header a{
 	padding: 0;
 }
 
-/*.section-2 .row . *{
-	flex-shrink: 0;
-}*/
-
-/*.section-2 .row:nth-child(1){
-	flex-basis: 530.4px;
-}*/
 
 .section-2 .row{
 	margin: auto;
@@ -203,8 +195,7 @@ header a{
 	flex-wrap: wrap;
 }
 .section-2 .row>div{
-/*	min-width: 400px;
-*/	max-width: 100%;
+	max-width: 100%;
 	flex-basis: calc((460px - 100%) * 999999);
 	flex-grow: 1;
 	margin-top: 5px;
@@ -253,7 +244,6 @@ header a{
 	}
 }
 .section-2 .column-3{
-	/*flex-basis: 354px;*/
 	background-color: #3B4050;
 	color: white;
 	/*width: 100%;*/
@@ -263,7 +253,6 @@ header a{
 
 .section-2 .column-3 h5{
 	min-height: 0;
-	/*padding: 3.5%;*/
 }
 
 footer{
