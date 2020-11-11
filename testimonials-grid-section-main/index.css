@@ -110,7 +110,7 @@ img{
 		max-width: 100vw;
 		display: grid;
 		grid-template-columns:  repeat(4, 340px);
-		grid-template-rows: repeat(2, 370px);
+		grid-template-rows: repeat(2, 390px);
 }
 .one{
 	grid-column: 1/3;
